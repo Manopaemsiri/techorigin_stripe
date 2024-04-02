@@ -26,7 +26,7 @@
           <div class="btns mt-4" data-aos="fade-up" data-aos-delay="300">
             <div class="btn btn-action sm btn-01 mw-auto">
               <div class="icon-wrapper chevron-slide">
-                <span>Start now</span>
+                <span class="p sm fw-600">Start now</span>
                 <div class="icon">
                   <em class="fa-solid fa-chevron-right"></em>
                 </div>
@@ -133,7 +133,7 @@
           <div class="btns mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="btn btn-action sm btn-03 mw-auto">
               <div class="icon-wrapper chevron-slide">
-                <span>Start with Payments</span>
+                <span class="p sm fw-600">Start with Payments</span>
                 <div class="icon">
                   <em class="fa-solid fa-chevron-right"></em>
                 </div>
@@ -189,7 +189,7 @@
           <div class="btns mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="btn btn-action sm btn-03 mw-auto">
               <div class="icon-wrapper chevron-slide">
-                <span>Start with Billing</span>
+                <span class="p sm fw-600">Start with Billing</span>
                 <div class="icon">
                   <em class="fa-solid fa-chevron-right"></em>
                 </div>
@@ -245,7 +245,7 @@
           <div class="btns mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="btn btn-action sm btn-03 mw-auto">
               <div class="icon-wrapper chevron-slide">
-                <span>Start with Billing</span>
+                <span class="p sm fw-600">Start with Billing</span>
                 <div class="icon">
                   <em class="fa-solid fa-chevron-right"></em>
                 </div>
@@ -301,7 +301,7 @@
           <div class="btns mt-4" data-aos="fade-up" data-aos-delay="450">
             <div class="btn btn-action sm btn-03 mw-auto">
               <div class="icon-wrapper chevron-slide">
-                <span>Start with Billing</span>
+                <span class="p sm fw-600">Start with Billing</span>
                 <div class="icon">
                   <em class="fa-solid fa-chevron-right"></em>
                 </div>
@@ -389,7 +389,7 @@
     </div> 
   </section>
 
-  <section class="section-padding pos-relative">
+  <section class="section-padding section-02 pos-relative">
     <div class="container">
       <p class="h6 color-s fw-600" data-aos="fade-up" data-aos-delay="0">
         Enterprise reinvention
@@ -402,9 +402,95 @@
         support new markets,<br>upgrade existing systems and tools, go 
         direct-to-consumer, and engage customers with<br>subscriptions 
         and marketplaces. Get expert integration guidance from our 
-        professional<br>services team and certified partners so you 
-        can see value with Stripe faster.
+        <a href="#" class="color-s h-color-p fw-500">professional<br>services team</a>
+        and certified partners so you can see value with Stripe faster.
       </p>
+      <div class="btns mt-4" data-aos="fade-up" data-aos-delay="450">
+        <div class="btn btn-action sm btn-03 mw-auto">
+          <div class="icon-wrapper chevron-slide">
+            <span class="p sm fw-600">Contact sales</span>
+            <div class="icon">
+              <em class="fa-solid fa-chevron-right"></em>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grids mt-adaptive">
+        <div class="grid lg-20 md-1-3 sm-100">
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <!-- Content 01 -->
+              <div class="swiper-slide">
+
+                <p class="h4 title fw-600">5+</p>
+                <p class="md color-02 fw-400">
+                  Amazon businesses on<br>
+                  Stripe including Prime,<br>
+                  Audible, and Amazon Pay.
+                </p>
+
+                <p class="h4 title fw-600 mt-6">50+</p>
+                <p class="md color-02 fw-400">
+                  Payment methods<br>available on Stripe
+                </p>
+
+                <p class="title fw-600 mt-6">Products used</p>
+                <p class="md color-02 fw-400">
+                  BMW owners using<br>ConnectedDrive Store
+                </p>
+              </div>
+              <!-- Content 02 -->
+              <div class="swiper-slide">
+
+                <p class="h4 title fw-600">Millions</p>
+                <p class="md color-02 fw-400">
+                  BMW owners using<br>ConnectedDrive Store
+                </p>
+               
+                <p class="h4 title fw-600 mt-6">350+</p>
+                <p class="md color-02 fw-400">
+                  US dealerships
+                </p>
+
+                <p class="title fw-600 mt-6">Products used</p>
+                <p class="md color-02 fw-400">
+                  BMW owners using<br>ConnectedDrive Store
+                </p>
+
+              </div>
+              <!-- Content 03 -->
+              <div class="swiper-slide">
+
+                <p class="h4 title fw-600">130</p>
+                <p class="md color-02 fw-400">
+                  Countries in logistics<br>network
+                </p>
+
+                <p class="h4 title fw-600 mt-6">$10+</p>
+                <p class="md color-02 fw-400">
+                  Billion worth of goods moved<br>
+                  around the world each year
+                </p>
+
+                <p class="title color-p fw-500 mt-6">Products used</p>
+                <p class="md color-02 fw-400">
+                  BMW owners using<br> 
+                  ConnectedDrive Store
+                </p>
+
+              </div>
+            </div>
+          </div>
+        </div>  
+        <div class="grid lg-80 md-2-3 sm-100">
+          <div class="ss-card ss-card-01">
+            <div class="ss-img bradius-round horizontal">
+              <div id="imgBg" class="img-bg" style="background-image:url('./public/assets/app/img/content/02.jpg')"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="client-02"></div>
     </div>   
     <div class="pattern-lines theme-02">
       <div class="line"></div><div class="line"></div>

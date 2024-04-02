@@ -1,7 +1,7 @@
 /* Reset */
 
 :root {
-  --bradius:.4375rem;
+  --bradius:.5rem;
 }
 
 html, body{
@@ -197,11 +197,9 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
 
 /* Special Image */
 .ss-img{display:block; position:relative; width:100%; padding:60% 0 0 0; overflow:hidden;}
-.ss-img.horizontal{padding:50% 0 0 0;}
-.ss-img.horizontal-02{padding:65% 0 0 0;}
+.ss-img.horizontal{padding:45% 0 0 0;}
 .ss-img.vertical{padding:140% 0 0 0;}
 .ss-img.square{padding:100% 0 0 0;}
-.ss-img.square-02{padding:75% 0 0 0;}
 .ss-img > .img-bg{
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center; transition:transform .25s, filter .25s; 
@@ -372,7 +370,6 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
 .border-right-4{border-right:4px solid transparent!important;}
 
 .bradius-round{border-radius:var(--bradius)!important;}
-.bradius-round-02{border-radius:.375rem!important;}
 
 .no-bradius{border-radius:0!important;}
 .no-padding{padding:0!important;}

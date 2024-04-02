@@ -1,0 +1,44 @@
+
+/* Reset */
+html, body{background:#000000;}
+html, body, a, a:hover, table.table{color:#fecb00;}
+img, .img-bg, .hero, .section-bg, .img-fill, .pattern, iframe{filter:grayscale(1)!important;}
+img.topic-img, img.stopnav-logo-img, .pattern.not-gray, img.palace-img{filter:unset!important;}
+.pattern-theme-none{display:none;}
+
+
+/* Colors */
+.color-p, 
+.color-s, 
+.color-t, 
+.color-white,
+.color-black, 
+.color-dark, 
+.color-gray, 
+.color-sgray{color:#fecb00!important;}
+.color-white-theme{color:#fecb00!important;}
+.color-black-theme{color:#000000!important;}
+
+
+.bg-p, 
+.bg-s, 
+.bg-t, 
+.bg-white, 
+.bg-black, 
+.bg-dark, 
+.bg-gray, 
+.bg-sgray{background:#000000!important;}
+.bg-white-theme{background:#fecb00!important;}
+.bg-black-theme{background:#000000!important;}
+
+
+.bcolor-p, 
+.bcolor-s, 
+.bcolor-t 
+.bcolor-white,
+.bcolor-black,
+.bcolor-dark, 
+.bcolor-gray, 
+.bcolor-sgray,
+.bcolor-01{border-color:#fecb00!important;}
+

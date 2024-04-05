@@ -421,63 +421,154 @@
             <div class="swiper-wrapper">
               <!-- Content 01 -->
               <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="wrapper">
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">5+</p>
+                      <p class="md color-02 fw-400">
+                        Amazon businesses on<br>
+                        Stripe including Prime,<br>
+                        Audible, and Amazon Pay.
+                      </p>
+                    </div>
+                     
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">50+</p>
+                      <p class="md color-02 fw-400">
+                        Payment methods<br>available on Stripe
+                      </p>
+                    </div>
 
-                <p class="h4 title fw-600">5+</p>
-                <p class="md color-02 fw-400">
-                  Amazon businesses on<br>
-                  Stripe including Prime,<br>
-                  Audible, and Amazon Pay.
-                </p>
-
-                <p class="h4 title fw-600 mt-6">50+</p>
-                <p class="md color-02 fw-400">
-                  Payment methods<br>available on Stripe
-                </p>
-
-                <p class="title fw-600 mt-6">Products used</p>
-                <p class="md color-02 fw-400">
-                  BMW owners using<br>ConnectedDrive Store
-                </p>
+                    <div class="swiper-content-list">
+                      <p class="title size-02 fw-600">Products used</p>
+                      <div class="ss-title mt-5" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/payments.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Payments</span>
+                      </div>
+                      <div class="ss-title mt-2" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/connect.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Connect</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <!-- Content 02 -->
               <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="wrapper">
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">Millions</p>
+                      <p class="md color-02 fw-400">
+                        BMW owners using<br>ConnectedDrive Store
+                      </p>
+                    </div>
 
-                <p class="h4 title fw-600">Millions</p>
-                <p class="md color-02 fw-400">
-                  BMW owners using<br>ConnectedDrive Store
-                </p>
-               
-                <p class="h4 title fw-600 mt-6">350+</p>
-                <p class="md color-02 fw-400">
-                  US dealerships
-                </p>
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">350+</p>
+                      <p class="md color-02 fw-400">
+                        US dealerships
+                      </p>
+                    </div>
 
-                <p class="title fw-600 mt-6">Products used</p>
-                <p class="md color-02 fw-400">
-                  BMW owners using<br>ConnectedDrive Store
-                </p>
-
+                    <div class="swiper-content-list">
+                      <p class="title size-02 fw-600">Products used</p>
+                      <div class="ss-title mt-5" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/payments.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Payments</span>
+                      </div>
+                      <div class="ss-title mt-2" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/connect.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Connect</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <!-- Content 03 -->
               <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="wrapper">
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">130</p>
+                      <p class="md color-02 fw-400">
+                        Countries in logistics<br>network
+                      </p>
+                    </div>
 
-                <p class="h4 title fw-600">130</p>
-                <p class="md color-02 fw-400">
-                  Countries in logistics<br>network
-                </p>
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">$10+</p>
+                      <p class="md color-02 fw-400">
+                        Billion worth of goods moved<br>
+                        around the world each year
+                      </p>
+                    </div>
 
-                <p class="h4 title fw-600 mt-6">$10+</p>
-                <p class="md color-02 fw-400">
-                  Billion worth of goods moved<br>
-                  around the world each year
-                </p>
+                    <div class="swiper-content-list">
+                      <p class="title size-02 color-p fw-500">Products used</p>
+                      <div class="ss-title mt-5" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/payments.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Payments</span>
+                      </div>
+                      <div class="ss-title mt-2" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/connect.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Connect</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <p class="title color-p fw-500 mt-6">Products used</p>
-                <p class="md color-02 fw-400">
-                  BMW owners using<br> 
-                  ConnectedDrive Store
-                </p>
+              <!-- Content 04 -->
+              <div class="swiper-slide">
+                <div class="swiper-content">
+                  <div class="wrapper">
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">130</p>
+                      <p class="md color-02 fw-400">
+                        Countries in logistics<br>network
+                      </p>
+                    </div>
 
+                    <div class="swiper-content-list">
+                      <p class="h4 title fw-600">$10+</p>
+                      <p class="md color-02 fw-400">
+                        Billion worth of goods moved<br>
+                        around the world each year
+                      </p>
+                    </div>
+
+                    <div class="swiper-content-list">
+                      <p class="title size-02 color-p fw-500">Products used</p>
+                      <div class="ss-title mt-5" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/payments.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Payments</span>
+                      </div>
+                      <div class="ss-title mt-2" data-aos="fade-up" data-aos-delay="0">
+                        <div class="icon">
+                          <img src="./public/assets/app/img/icon/connect.svg" alt="Payments Icon">
+                        </div>
+                        <span class="p fw-400 color-04 ml-1">Connect</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -485,18 +576,97 @@
         <div class="grid lg-80 md-2-3 sm-100">
           <div class="ss-card ss-card-01">
             <div class="ss-img bradius-round horizontal">
-              <div id="imgBg" class="img-bg" style="background-image:url('./public/assets/app/img/content/02.jpg')"></div>
+              <div class="img-bg"></div>
+              <div class="filter-01"></div>
+            </div>
+            <div class="content-inner">
+              <div class="logo-container">
+                <div class="logo">
+                  <img class="brand-logo" alt="Logo">
+                </div>
+              </div>
+              <div class="text-container">
+                <h5 id="title" class="title color-white fw-500 card-title"></h5>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="client-02"></div>
+      <div class="client-02 mt-4">
+        <div class="grids jc-center">
+          <?php 
+            $brandsLogo = [
+              ["logo" => './public/assets/app/img/brands/bmw-color.svg'],
+              ["logo" => './public/assets/app/img/brands/amazon-color.svg'],
+              ["logo" => './public/assets/app/img/brands/maersk-color.svg'],
+              ["logo" => './public/assets/app/img/brands/twilio-color.svg'],
+            ]
+          ?>
+          <?php foreach($brandsLogo as $d) {?>
+            <div class="grid lg-25 md-25 xs-50">
+              <div class="logo">
+                <img src="<?= $d['logo'] ?>" alt="Logo">
+              </div>
+            </div>
+          <?php }?>
+        </div>
+      </div>
     </div>   
     <div class="pattern-lines theme-02">
       <div class="line"></div><div class="line"></div>
       <div class="line"></div><div class="line"></div>
     </div>   
   </section>
+  
+  <div class="section-padding pos-relative bg-03">
+    <div class="container">
+      <p class="h6 color-s fw-600" data-aos="fade-up" data-aos-delay="0">
+        Built for growth
+      </p>
+      <h2 class="lg fw-700 color-p mt-6" data-aos="fade-up" data-aos-delay="150">
+        Take your startup farther, faster
+      </h2>
+      <p class="h6 color-02 fw-400 mt-6 xs-no-br" data-aos="fade-up" data-aos-delay="300">
+        Startups build on Stripe to launch faster, adapt as they grow, 
+        and automate<br>workflows to do more with less. Build your own API-based 
+        integration or use our<br>low- to no-code solutions, which are simple enough 
+        for easy implementation and<br>powerful enough to scale as fast and as far as you need.
+      </p>
+      <div class="grids" data-aos="fade-up" data-aos-delay="450">
+        <?php 
+          $contents = [
+            [
+              "imgBg" => './public/assets/app/img/content/atlas_home_rocketrides_Thai.svg'
+            ],[
+              "imgBg" => './public/assets/app/img/content/atlas_home_rocketrides_Thai.svg'
+            ],[
+              "imgBg" => './public/assets/app/img/content/atlas_home_rocketrides_Thai.svg'
+            ],[
+              "imgBg" => './public/assets/app/img/content/atlas_home_rocketrides_Thai.svg'
+            ],
+          ]
+        ?>   
+        <?php foreach($contents as $d){?>
+          <div class="grid lg-50">
+            <a href="#" class="ss-card ss-card-02">
+              <div class="img-container">
+                <div class="img-wrapper">
+                  <img src="<?= $d['imgBg'] ?>" alt="Image">
+                </div>
+              </div>
+              <div class="text-container">
+                <h5 class="lg fw-700">Incorporate your company</h5>
+                <p class="h6 color-02 fw-500"> 
+                  Form a legal entity, issue stock, and 
+                  start accepting payments.
+                </p>
+              </div>
+            </a>
+          </div>
+        <?php } ?>
+      </div>
+    </div>        
+  </div>
   
   <?php //include_once('include/footer.php'); ?>
   <?php include_once('include/script.php'); ?>

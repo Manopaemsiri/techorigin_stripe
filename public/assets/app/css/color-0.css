@@ -80,6 +80,29 @@ html, body, table.table{color:#000000;}
 .btn.btn-action .icon-wrapper.chevron-slide.style-02 > .icon::before{background:#0a2540;}
 
 
+/* Filter 01 */
+.filter-01.theme-01{
+  background-image:linear-gradient(to top,rgba(68,175,209,.8),rgba(68,175,209,.8),
+  rgba(68,175,209,.6),rgba(68,175,209,.6),rgba(68,175,209,.6),rgba(68,175,209,.6),
+  rgba(68,175,209,.6));
+}
+.filter-01.theme-02{
+  background-image:linear-gradient(to top,rgba(235,165,51,.8),rgba(235,165,51,.8),
+  rgba(235,165,51,.6),rgba(235,165,51,.6),rgba(235,165,51,.6),rgba(235,165,51,.6),
+  rgba(235,165,51,.6));
+}
+.filter-01.theme-03{
+  background-image:linear-gradient(to top,rgba(6,103,174,.8),rgba(6,103,174,.8),
+  rgba(6,103,174,.6),rgba(6,103,174,.6),rgba(6,103,174,.6),rgba(6,103,174,.6),
+  rgba(6,103,174,.6));
+}
+.filter-01.theme-04{
+  background-image:linear-gradient(to top,rgba(192,69,71,.8),rgba(192,69,71,.8),
+  rgba(192,69,71,.6),rgba(192,69,71,.6),rgba(192,69,71,.6),rgba(192,69,71,.6),
+  rgba(192,69,71,.6));
+}
+
+
 /* Pattern Line */
 .pattern-lines.theme-01 .line{border-color:#f6f6f8;}
 .pattern-lines.theme-02 .line{border-color:#ebeff2;}
@@ -91,4 +114,9 @@ html, body, table.table{color:#000000;}
 
 
 /* Section 02 */
-/* .section-02 .title::before{background:#00d4ff;} */
+.section-02 .swiper-slide .title::before{background:#635bff;}
+
+
+/* Special Card 02 */
+.ss-card-02{border-color:#ffffff;}
+.ss-card-02 .text-container{background:#ffffff;}

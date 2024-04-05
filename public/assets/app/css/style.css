@@ -78,6 +78,7 @@ h3, .h3{font-size:2rem; line-height:1.45;}
 h4, .h4{font-size:1.875rem;}
 h5, .h5{font-size:1.375rem;}
 h5.sm, .h5.sm{font-size:1.25rem;}
+h5.lg, .h5.lg{font-size:1.5rem;}
 h6, .h6{font-size:1.125rem;}
 p, .p, li, label{font-size:1rem;}
 p.md, .p.md, li.md, label.md{font-size:.9375rem;}
@@ -154,6 +155,10 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
 
 
 /* Filter */
+.filter-01{
+  position: absolute; 
+  top:0; right:0; bottom:0; left:0; 
+}
 
 
 /* Hamburger */
@@ -204,6 +209,9 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
     position:absolute; top:0; bottom:0; left:0; right:0; background-size:cover;
     background-position:center; transition:transform .25s, filter .25s; 
 }
+@media screen and (max-width:991.98px){
+  .ss-img.horizontal{padding:60% 0 0 0;}
+}
 .ss-card:hover .ss-img > .img-bg, .ss-img:hover > .img-bg{transform:scale(1.1);}
 .ss-img.no-hover > .img-bg, .ss-card .ss-img.no-hover > .img-bg{transform:none!important;}
 
@@ -244,6 +252,31 @@ p.xxs, .p.xxs, li.xxs, label.xxs{font-size:.6875rem;}
 
 
 /* Special Card 01 */
+.ss-card-01{position:relative;}
+.ss-card-01 .logo-container{
+  position:absolute; top:2rem; left:2rem; z-index:2;
+}
+.ss-card-01 .logo-container .logo svg{
+  display:block; max-width:100%; width:auto; max-height:100%; height:100%;
+}
+.ss-card-01 .text-container{
+  position:absolute; bottom:0; padding:2rem; 
+  transition:transform .5s;
+}
+
+
+/* Special Card 02 */
+.ss-card-02{
+  border:5px solid transparent;
+  box-shadow:0px 18px 36px -18px rgba(0,0,0,0.1),0px 30px 45px -30px rgba(50,50,93,0.25);
+}
+.ss-card-02 .img-container{position:relative; height:25rem;}
+.ss-card-02 .img-wrapper{position:absolute; bottom:0; right:0;}
+.ss-card-02 .img-wrapper img{
+  display:block; max-width:100%; width:auto; max-height:100%; height:20rem;
+}
+.ss-card-02 .text-container{padding:2.5rem;}
+
 
 
 /* Utility */

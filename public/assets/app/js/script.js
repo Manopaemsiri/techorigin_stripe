@@ -1,28 +1,41 @@
 $(function(){ 'use strict';
 
     // Section 02
-    var section02 = $('.section-02');
-    var changImage = $('#imgBg');
-    var imgContent = [
+    var section02 = $('.section-02'),
+        title = section02.find('#title'),
+        card = section02.find('.ss-card'),
+        changeImage = card.find('.img-bg'),
+        brandsLogo = card.find('.brand-logo') ,
+        cardFilter = card.find('.filter-01'),
+        client02 = section02.find('.client-02 .logo');
+    var contents = [
         {
-            logo: "1",
-            imgBg: "background-image:url('./public/assets/app/img/content/04.jpg"
+            id: "1",
+            imgBg: "background-image:url('./public/assets/app/img/content/02.jpg",
+            logo: "./public/assets/app/img/brands/bmw-white.svg",
+            title: "Learn why BMW chose Stripe to power e-commerce and payments",
         },{
-            logo: "2",
-            imgBg: "background-image:url('./public/assets/app/img/content/02.jpg"
+            id: "2",
+            imgBg: "background-image:url('./public/assets/app/img/content/04.jpg",
+            logo: "./public/assets/app/img/brands/amazon-white.svg",
+            title: "See how Amazon simplified cross-border payments with Stripe",
         },{
-            logo: "3",
-            imgBg: "background-image:url('./public/assets/app/img/content/03.jpg"
-        },
+            id: "3",
+            imgBg: "background-image:url('./public/assets/app/img/content/03.jpg",
+            logo: "./public/assets/app/img/brands/maersk-white.svg",
+            title: "See how Maersk tapped into new technology to make it easier to ship around the world",
+        },{
+            id: "4",
+            imgBg: "background-image:url('./public/assets/app/img/content/05.jpg",
+            logo: "./public/assets/app/img/brands/twilio-white.svg",
+            title: "See how Twilio increased authorization rates by 10% with Stripe",
+        }
     ]
- 
-    console.log(changImage);
     if(section02.length){
         section02.each(function(){
             var self = $(this);
             var swiper = new Swiper(self.find('.swiper-container'), {
-                slidesPerView: 1,
-                spaceBetween: 0,
+                spaceBetween: 30,
                 navigation: {
                     prevEl: self.find('.arrow.arrow-prev'),
                     nextEl: self.find('.arrow.arrow-next'),
@@ -34,8 +47,8 @@ $(function(){ 'use strict';
                     el: self.find('.swiper-pagination'),
                     clickable: true,
                 },
-                loop: true,
-                speed: 700,
+                loop:true,
+                speed: 1200,
                 breakpoints: {
                     1300: { slidesPerView: 1 },
                     999: { slidesPerView: 1 },
@@ -44,8 +57,25 @@ $(function(){ 'use strict';
                 },
             });
             swiper.on('slideChange', function () {
-                changImage.attr('style', imgContent[swiper.realIndex].imgBg);
-                console.log('index', swiper.realIndex);
+                let themes = `theme-0${contents[swiper.realIndex].id}`;
+
+                if(card.hasClass('active')){
+                    card.removeClass('active');
+                }else{
+                    setTimeout(function(){
+                        card.addClass('active');
+                    }, 100);
+                }
+                setTimeout(function(){
+                    cardFilter.removeClass(`${themes}`);
+                }, 2200);
+
+                client02.removeClass("active");
+                client02.eq(swiper.realIndex).addClass("active");
+                cardFilter.addClass(`${themes}`);
+                brandsLogo.attr('src', contents[swiper.realIndex].logo)
+                changeImage.attr('style', contents[swiper.realIndex].imgBg);
+                title.html(contents[swiper.realIndex].title);
             });
         });
     }

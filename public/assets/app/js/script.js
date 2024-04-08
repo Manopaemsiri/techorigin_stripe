@@ -2,7 +2,8 @@ $(function(){ 'use strict';
 
     // Section 02
     var section02 = $('.section-02'),
-        client02 = section02.find('.client-02 .logo');
+        client02 = section02.find('.client-02 .logo'),
+        card =  section02.find('.ss-card')
     if(section02.length){
         section02.each(function(){
             var self = $(this);
@@ -47,7 +48,7 @@ $(function(){ 'use strict';
                     clickable: true,
                 },
                 // loop:true,
-                speed: 1300,
+                speed: 1700,
                 initialSlide: startIndex,
                 breakpoints: {
                     1300: { slidesPerView: 1 },
@@ -65,8 +66,7 @@ $(function(){ 'use strict';
                 if(swiperBgColor.hasClass(`${filters[swiper.activeIndex]}`)){
                     setTimeout(function(){
                         swiperBgColor.removeClass(`${filters[swiper.activeIndex]}`)
-                    }, 1300);
-                   
+                    }, 1700);
                 }
                 client02.removeClass("active");
                 client02.eq(swiper.realIndex).addClass("active");
